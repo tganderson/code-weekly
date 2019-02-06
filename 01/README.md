@@ -14,9 +14,12 @@ n.times do { # multiply n, n times
 
 But we can do better. In fact, it's fairly easy to compute n<sup>n</sup> in
 O(log<sub>2</sub>(n)) time. Your task is to create a routine that can do so.
-In particular, write a function `n_exp_n(n)` that takes one parameter `n` and
-computes n<sup>n</sup>. Note that this is equivalent to writing a function
-`exp(n, k)` where n = k.
+In particular, do one of the following:
+
+- Write a function `n_exp_n(n)` that takes one parameter `n` and computes
+  n<sup>n</sup>
+- Equivalently, write a function `exp(n, k)` that takes two parameters `n` and
+  `k` and computes n<sup>k</sup>, then call `exp(n, n)` to find n<sup>n</sup>.
 
 Many discussions about this problem can be found online. The goal is for you to
 not use them.
@@ -45,11 +48,11 @@ Say you write a solution in C++:
 
 ```cpp
 // src/solution.cpp
-uint32_t n_exp_n(uint32_t n) { /* solution */ }
+uint32_t exp(uint32_t n, uint32_t k) { /* solution */ }
 
 int main(int argc, char* argv[]) {
   uint32_t n = argv[1]; // read in argument for n
-  std::cout << n_exp_n(n); // compute n^n and write to stdout
+  std::cout << exp(n, n); // compute n^n and write to stdout
 }
 ```
 
