@@ -35,8 +35,8 @@ now, that is [Week 01](./01).
 4. Test your solution
    - details in the week directory
 5. Wait one week
-   - maybe [request a problem](https://github.com/ayazhafiz/code-weekly/issues/new)
-     or [submit your solution](https://github.com/ayazhafiz/code-weekly/issues/new)
+   - maybe [request a problem](https://github.com/ayazhafiz/code-weekly/issues/new?assignees=&labels=request&template=request-for-an-exercise.md&title=%5BREQ%5D)
+     or [submit your solution](https://github.com/ayazhafiz/code-weekly/issues/new?assignees=&labels=enhancement&template=sample-solution.md&title=%5BSOLN%5D)
 6. Pull in the new weekly exercise and repeat from (1)
 7. profit?
 
@@ -54,5 +54,5 @@ Overviews of how to use CLI args for any language are available online.
 ### Requests, Bugs, and Solutions
 
 If you have a request for a problem, spot an issue with the repo, or want to
-merge your solution to the master branch, [submit an issue](https://github.com/ayazhafiz/code-weekly/issues/new).
+merge your solution to the master branch, [submit an issue](https://github.com/ayazhafiz/code-weekly/issues/new/choose).
 Please observe the prescribed issue template.
