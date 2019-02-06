@@ -33,7 +33,7 @@ the solution in `SOLUTION_COMMAND`.
 
 ##### Example
 
-_An example of the workflow can be found in [Week 00](../00)._
+_An example of the workflow can be found in [Week 00](../00-EXAMPLE)._
 
 Say you write a solution in C++:
 
