@@ -61,7 +61,7 @@ n<sup>n</sup>, will not exceed the int32 limit.
 
 ### Hints
 
-Don't use hints until you need them, but do you use them if you need them.
+Don't use hints until you need them, but do use them if you need them.
 [Decode](https://www.base64decode.org) a hint with base64.
 
 Hint 1:
