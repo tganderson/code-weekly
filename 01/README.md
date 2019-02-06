@@ -5,10 +5,10 @@
 We can compute n<sup>n</sup> trivially with O(n) (linear) time complexity in the
 following way:
 
-```rust
-n = 1
-for _ in 1..n {
-  n * n;
+```ruby
+exp = 1
+n.times do { # multiply n, n times
+  exp = exp * n;
 }
 ```
 
