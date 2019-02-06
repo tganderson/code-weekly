@@ -40,8 +40,16 @@ now, that is [Week 01](./01).
 6. Pull in the new weekly exercise and repeat from (1)
 7. profit?
 
-You will need Python, but most machines have this preinstalled; otherwise,
-its installation is pretty straightforward.
+##### Dependencies and Stuff
+
+You will need [Python](https://www.python.org/downloads/). Your machine probably
+already has it; if it doesn't, installation is easy.
+
+You will also need a working knowledge of git, at least to pull in new changes.
+There are some [simple guides](http://rogerdudler.github.io/git-guide/) online.
+
+Lastly, to test your exercise, you will have to use command line arguments.
+Overviews of how to use CLI args for any language are available online.
 
 ### Requests, Bugs, and Solutions
 
