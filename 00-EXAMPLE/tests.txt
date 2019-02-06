@@ -1,11 +1,14 @@
-5
 Alice
-Bob
-John
-Mary
-Grace
 Hi, Alice
+-----
+Bob
 Hi, Bob
+-----
+John
 Hi, John
+-----
+Mary
 Hi, Mary
+-----
+Grace
 Hi, Grace

@@ -6,9 +6,8 @@ with open('SOLUTION_COMMAND') as sol_cmd:
 with open('tests.txt') as f:
     lines = f.readlines()
 
-num_tests = int(lines[0])
-cases = list(map(lambda s: s.strip(), lines[1:num_tests + 1]))
-expect = list(map(lambda s: s.strip(), lines[num_tests + 1:]))
+cases = list(map(lambda s: s.strip(), lines[0::3]))
+expect = list(map(lambda s: s.strip(), lines[1::3]))
 
 for i in range(0, len(cases)):
     res = subprocess.check_output(cmd + [cases[i]]).strip()
