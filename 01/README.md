@@ -15,6 +15,9 @@ for _ in 1..n {
 But we can do better. In fact, it's fairly easy to compute n<sup>n</sup> in
 O(log<sub>2</sub>(n)) time. Your task is to write a function that can do so.
 
+Many discussions about this problem can be found online. The goal is for you to
+not use them.
+
 ### Writing and Testing Your Solution
 
 You are encouraged to write your solution in whatever language you wish to. All
