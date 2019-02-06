@@ -1,5 +1,7 @@
 # [Week 01](./01) - Computing n<sup>n</sup> quickly
 
+_Released 02/06/2019_
+
 ### Problem
 
 We can compute n<sup>n</sup> trivially with O(n) (linear) time complexity in the

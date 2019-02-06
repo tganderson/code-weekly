@@ -24,7 +24,7 @@ The highest-numbered week is the most current weekly exercise available. Right
 now, that is [Week 01](./01).
 
 - [Week 01](./01) - write a function that computes n<sup>n</sup> in O(log(n))
-  time.
+  time. _02/06/2019_
 
 ### Usage
 
