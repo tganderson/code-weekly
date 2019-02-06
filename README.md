@@ -40,6 +40,9 @@ now, that is [Week 01](./01).
 6. Pull in the new weekly exercise and repeat from (1)
 7. profit?
 
+You will need Python, but most machines have this preinstalled; otherwise,
+its installation is pretty straightforward.
+
 ### Requests, Bugs, and Solutions
 
 If you have a request for a problem, spot an issue with the repo, or want to
